@@ -1,0 +1,20 @@
+package Class19;
+
+public class CircleHW5 {
+    int radius;
+
+    CircleHW5(int radius) {
+        this.radius=radius;
+    }
+}
+class circle extends CircleHW5{
+
+    int area;
+    circle(int radius, int area) {
+        super(radius);
+        this.area=area;
+    }
+    void calculateArea() {
+        System.out.println("The area of the circle");
+    }
+}

@@ -1,0 +1,12 @@
+Method Overriding:
+      Allows us to have same name methods in parent and child classes.
+Why should we Override a method:
+      Let's say we are inheriting from a Parent class that has 10 methods. We want to reuse 8 of them but we don't
+      want to use 2 of them. We want to provide implementation in a different way. We can use method overriding to
+      override those methods.
+What is the Syntax to override a method?
+      We simply redefine  the method in  the child class.
+
+
+Polymorphism is the ability of an object to take on many forms.
+Polymorphism allows us to perform a single action in different ways.
